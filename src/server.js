@@ -17,7 +17,7 @@ const __dirname = path.resolve();
 
 app.use(
   cors({
-    origin: "*",
+    origin: "https://reactcloud-prie.vercel.app",
     credentials: true, 
   })
 );
